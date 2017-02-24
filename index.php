@@ -97,9 +97,9 @@
 		</li>
 			
 						
-        </div><!--nav-collapse -->
+        <!--nav-collapse -->
       
-    </nav>
+    
 
 <div class="row"style="background:#eee">
 <div class="col-lg-12"style="background:#eee">
@@ -196,7 +196,7 @@ Thank you!!!
     </div>
     </div>
 	
-	</div> 
+	
 
 
     <!-- Placed at the end of the document so the pages load faster -->
