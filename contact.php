@@ -56,4 +56,4 @@ require('config.php');
 </div>
 	</form>	
 	</div>
-	</div>
+	
