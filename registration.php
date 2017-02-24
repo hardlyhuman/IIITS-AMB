@@ -132,6 +132,6 @@
     </form>
 	    <button type="button" class="btn btn-success" data-dismiss="modal">Cancel</button>
        </div>
-    </div><!-- /.modal-content -->
+    
   </div><!-- /.modal-dialog -->
 </div>
