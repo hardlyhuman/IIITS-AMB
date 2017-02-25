@@ -81,7 +81,7 @@ require('../config.php');
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar"  >
-            <li ><a href="#" style="text-decoration:underline"style="color:#232323"><strong>Admin Dashboard</strong> <span class="sr-only">(current)</span></a></li>
+            <li ><a href="index.php" style="text-decoration:underline"style="color:#232323"><strong>Admin Dashboard</strong> <span class="sr-only">(current)</span></a></li>
             <li><a href="index.php?option=category"style="color:#232323"><span class="glyphicon glyphicon-asterisk"style="color:#232323"></span> Category</a></li>
 			<li><a href="index.php?option=Instructor"style="color:#232323"><span class="glyphicon glyphicon-user"style="color:#232323"></span> Instructor</a></li>
 			<li><a href="index.php?option=Student"style="color:#232323"><span class="glyphicon glyphicon-user"style="color:#232323"></span> Student</a></li>
