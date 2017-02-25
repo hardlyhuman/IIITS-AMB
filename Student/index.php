@@ -94,7 +94,7 @@ $stu= mysqli_fetch_array($q);
 			
 			<li><a href="index.php?option=view_attendance" title="take today's attendance "style="color:#232323"><span class="glyphicon glyphicon-list-alt"></span> View attendance</a></li>	
 			
-		<li><a href="index.php?option=notification" title="Check notification given by admin"><span class="glyphicon glyphicon-bell" style="color:#232323"></span> Notification from Instructor</a></li>
+		<!--<li><a href="index.php?option=notification" title="Check notification given by admin"><span class="glyphicon glyphicon-bell" style="color:#232323"></span> Notification from Instructor</a></li>-->
 	
 			
 			
