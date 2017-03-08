@@ -4,7 +4,7 @@ extract($_SESSION);
 
  if(isset($add))
  { 
- //print_r($name1);
+
    foreach($name1 as $f){
 	    
       $r= "att_".$f;		   
