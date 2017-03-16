@@ -27,7 +27,7 @@ xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
     document.getElementById("showsubcat").innerHTML=xmlhttp.responseText;
      }
    }
- //  alert(str);
+ 
 xmlhttp.open("GET","getsubcategory_ajax.php?cat_id="+str,true); xmlhttp.send(); }
 </script>
 
@@ -119,12 +119,12 @@ echo "<td>".$r[4]."</td>";
 echo "<td>".$r[5]."</td>";
 echo "<td>".$r[8]."</td>";
 
-//technology
+
 $res=mysql_query("select * from categories where id='".$r[9]."'");
 $rr=mysql_fetch_array($res);
 echo "<td>".$rr[1]."</td>";
 
-//topic
+
 $res=mysql_query("select * from subcategory where id='".$r[10]."'");
 $rr=mysql_fetch_array($res);
 echo "<td>".$rr[1]."</td>";
