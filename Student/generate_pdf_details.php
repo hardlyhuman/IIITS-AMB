@@ -13,35 +13,15 @@ $pdf->SetTitle('Attendance Management System PDF ');
 $pdf->SetSubject('TCPDF Tutorial');
 $pdf->SetKeywords('TCPDF, PDF, example, test, guide');
 
-// set default header data	
-//$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE.' dlfd ', PDF_HEADER_STRING, array(0,64,255), array(0,64,128));
 
-/*
-  class YourPDF extends TCPDF {
-        public function Header()
-		 {
-            if (count($this->pages) === 1) 
-			{
-			 // Do this only on the first page
-                $html .= '<p>Your header here</p>';
-            }
-
-            $this->writeHTML($html, true, false, false, false, '');
-        }
-    }
-*/
 
 $pdf->SetFont('Times', '', 11, '', false);
 $pdf->setCellHeightRatio(2);
 
 
-//$pdf->setFooterData(array(0,64,0), array(0,64,128));
+$pdf->setFooterData(array(0,64,0), array(0,64,128));
 
-// set header and footer fonts
-//$pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
-//$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
 
-//$pdf->SetHeaderData('', PDF_HEADER_LOGO_WIDTH, 'S S MEDICORP', 'dfjld ');
 
 
 // set default monospaced font
